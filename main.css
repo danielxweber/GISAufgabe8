@@ -1,0 +1,175 @@
+body{
+    background-color: cornflowerblue;
+    font: Courier;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;}
+
+    [href]{
+        background: crimson;
+        color: rebeccapurple;}
+
+        #Anfang{
+            color:rgb(65, 225, 118);
+            position: relative;
+            display: right;}
+
+            .Startseite{
+                height: 24px;
+                background:royalblue;
+                padding-left: 5px;
+                padding-top: 20px;
+                box-shadow: 5px 6px saddlebrown;
+                overflow: hidden;}
+
+            
+        .Events{
+            height: 30px;
+            background: sienna;
+            padding-top: 7px solid;
+            padding-left: 5px;
+            margin-top: 20px;
+            box-shadow: 4px 6px mistyrose;
+            overflow: hidden;}
+
+            .Kontakt {
+                width: 100%;
+                height: 500px;
+                background-image: url(bilder/berlin1.jpg);
+                background-position: center;
+                background-size: cover;
+                border-bottom: 18px;
+                border-color: black;}
+        div{
+            position: static;
+            border: 4px solid rebeccapurple;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-image: radial-gradient(
+                circle closest-side at cencter,
+                red
+                blue
+                yellow);}
+
+        li:first-child{
+            color: aliceblue;}
+
+        li:last-child{
+            color: bisque;}
+
+        li:nth-child(3){
+            color: black;}
+
+         li::marker{
+             content: black;  
+
+        li:nth-of-type(1n){
+            background: aliceblue;
+            padding: 2px;}
+
+        nav li:hover{
+            color:antiquewhite
+            font-size: 1.2em;
+            padding: 10px;
+            transition: background-color 1s, padding 1s ease;}
+        div li::first-letter {
+            color: wheat;
+            background-color: blueviolet;
+            border-radius: 1px;
+            box-shadow: 3px 2px 0 gray;
+            font-size:  100%;
+            padding: 3px 1px;
+            margin-right: 5px;
+            float: left;}
+
+        @keyframes pulse {
+            20% {
+                padding: 30px;
+                background-color: green;
+        }
+
+        iframe{
+            float: inline;
+            border:1px solid gray;
+            width: fit-content;
+            background-color:hotpink;
+            padding: 20px;
+            width: 420px;}
+         a{
+            font: 14px Courier;
+            text-decoration: ghostwhite;
+            color: aqua;
+            padding: 1px 4px 1px 4px;
+            border-right: 2px solid rosybrown;}
+        p {
+            border: 1px solid black;
+            width: 1420px;
+            background-color: blueviolet;
+            padding: 1px;}
+        }
+        
+        @media screen and (max-width: 30em) {
+            body{ font-size: 75%;}
+        }
+
+        @media screen and (max-width: 30em) {
+            body{font-size: 50%;}
+        }
+
+        h1{
+            position: relative;
+            left: 1%;
+            right: 1%;
+            top: 1vh;
+            height: 50px;
+            background: chartreuse;
+            color: cornsilk;
+            padding: 60px;
+            width: 1330px;}
+          
+        h2{
+            margin-bottom:25px;
+            background: rosybrown;
+            padding: 18px;}
+            
+        h3{
+            color: azure;
+            border: 2px;
+            padding-left: 0px;
+            margin: 10px;}
+            
+        table{
+            border: solid gray;
+            background: blanchedalmond;
+            box-shadow: brown;}
+
+        img{
+            float: inline;
+            border: 1px solid gray;
+            width: fit-content;
+            background-color: aliceblue;
+            padding: 18px;
+            animation: pulse 3s;
+            animation-iteration-count: unset;
+        }    
+        form {
+            padding: 0em 1em;
+          }
+          
+          label {
+            float: left;
+            margin-right: 0.2em;
+          }
+          
+          input,
+          select {
+            display: block;
+            margin-bottom: 0.5em;
+          }
+          
+          .radioGroup label {
+            float: initial;
+          }
+          
+          .radioGroup input {
+            display: initial;
+          }
